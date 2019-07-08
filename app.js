@@ -10,7 +10,7 @@ client.connect();
 
 var app = express();
 
-app.set('port', process.env.PORT || 8080);
+app.set('port', process.env.PORT || 4000);
 
 app.get('/', function (req, res, next) {
     client.query('SELECT * FROM Employee where id = $1', [1], function (err, result) {      
@@ -22,6 +22,6 @@ app.get('/', function (req, res, next) {
     });
 });
 
-app.listen(8080, function () {
-    console.log('Server is running.. on Port 8080');
+app.listen(4000, function () {
+    console.log('Server is running.. on Port 4000);
 });
