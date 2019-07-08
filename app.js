@@ -23,5 +23,5 @@ app.get('/', function (req, res, next) {
 });
 
 app.listen(4000, function () {
-    console.log('Server is running.. on Port 4000);
+    console.log('Server is running.. on Port 4000');
 });
