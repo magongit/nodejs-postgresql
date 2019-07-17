@@ -9,8 +9,9 @@ const client = new Client({
 client.connect();
 
 var app = express();
+var os = require("os");
 
-app.set('port', process.env.PORT || 4000);
+app.set('port', process.env.PORT || 8080);
 
 app.get('/', function (req, res, next) {
     client.query('SELECT * FROM Employee where id = $1', [1], function (err, result) {      
@@ -18,10 +19,11 @@ app.get('/', function (req, res, next) {
             console.log(err);
             res.status(400).send(err);
         }
+        console.log(os.hostname());
         res.status(200).send(result.rows); 
     });
 });
 
-app.listen(4000, function () {
-    console.log('Server is running.. on Port 4000');
+app.listen(8080, function () {
+    console.log('Server is running.. on Port 8080');
 });
