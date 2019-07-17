@@ -19,7 +19,7 @@ app.get('/', function (req, res, next) {
             console.log(err);
             res.status(400).send(err);
         }
-        console.log(os.hostname());
+        console.log(req.headers.host + '-' + os.hostname());
         res.status(200).send(result.rows); 
     });
 });
