@@ -20,7 +20,7 @@ app.get('/', function (req, res, next) {
             res.status(400).send(err);
         }
         console.log(os.hostname());
-        res.status(200).send(os.hostname(),result.rows); 
+        res.status(200).send(result.rows); 
     });
 });
 
