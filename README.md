@@ -57,6 +57,8 @@ SELECT * FROM Employee;
 
 ```
 
+haproxy.router.openshift.io/disable_cookies: 'true'
+
 
 - Type `npm install` in terminal/console in the source folder where `package.json` is located
 - Type `node app.js` in terminal/console in the source folder where `app.js` is located
