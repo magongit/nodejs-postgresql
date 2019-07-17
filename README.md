@@ -49,6 +49,8 @@ CREATE TABLE Employee(
 INSERT INTO Employee values(1,'John',1001);
 
 ```
+SELECT * FROM Employee;
+
 
 - Type `npm install` in terminal/console in the source folder where `package.json` is located
 - Type `node app.js` in terminal/console in the source folder where `app.js` is located
