@@ -39,7 +39,10 @@ const client = new Client({
 - Download the project’s zip
 - Create table & insert some default value in PostgreSQL
 
+
 ```
+PGPASSWORD=$POSTGRESQL_PASSWORD psql -h postgresql $POSTGRESQL_DATABASE $POSTGRESQL_USER
+
 CREATE TABLE Employee(
 	id int not null,
 	name text not null,
@@ -50,8 +53,9 @@ INSERT INTO Employee values(1,'John',1001);
 
 SELECT * FROM Employee;
 
-```
+\q 
 
+```
 
 
 - Type `npm install` in terminal/console in the source folder where `package.json` is located
