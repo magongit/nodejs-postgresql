@@ -1,13 +1,13 @@
 ﻿# [Connecting NodeJs & PostgreSQL](https://github.com/dannibla/nodejs-postgresql)
 
-Learn how to connect PostgreSQL with NodeJs, While you are using PostgreSQL as database and NodeJs as backend, you need PostgreSQL database packages to connect with nodejs. There are various packages available but most popular and well documented is node-postgres [pg](https://node-postgres.com/). Let’s start.
+Learn how to connect PostgreSQL with NodeJs, While you are using PostgreSQL as database and NodeJs as backend, you need PostgreSQL database packages to connect with nodejs. There are various packages available but most popular and well documented is node-postgres [pg](https://node-postgres.com/). Let’s start. test
 
 ## What's needed
 
 - Make sure you have [postgresql](https://www.postgresql.org/download/) installed on machine and [pgAdmin](https://www.pgadmin.org/download/) - postgresql management tool
 - Make sure you have [node.js](https://nodejs.org/en/download/) installed
 
-## Folder Structure
+## Folder Structure 
 
 Within the download you'll find the following directories and files:
 ```
