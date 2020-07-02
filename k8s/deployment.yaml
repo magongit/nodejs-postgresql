@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: nodejs-postgresql
+  name: nodejs-postgresql
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nodejs-postgresql
+  template:
+    metadata:
+      labels:
+        app: nodejs-postgresql
+    spec:
+      containers:
+        - image: quay.io/openshift-pipeline/nodejs-postgresql:latest
+          imagePullPolicy: Always
+          name: nodejs-postgresql
+          ports:
+            - containerPort: 8080
+              protocol: TCP
