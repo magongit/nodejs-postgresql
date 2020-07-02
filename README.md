@@ -68,9 +68,5 @@ haproxy.router.openshift.io/disable_cookies: 'true'
 
 Documented on [medium](https://link.medium.com/Itzt6BDbAV)
 
-## Help on Executing Queries
-
-Documented is available node-postgres(Doc) [pg](https://node-postgres.com/features/queries)
-
 ## Copyright and License
 Copyright 2019 Connecting NodeJs & PostgreSQL, released under the MIT License.
