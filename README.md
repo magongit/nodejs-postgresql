@@ -66,7 +66,7 @@ haproxy.router.openshift.io/disable_cookies: 'true'
 
 ## Brief Documented
 
-Documented on [medium](https://link.medium.com/Itzt6BDbAV)
+Documented on [medium](https://link.medium.com/Itzt6BDbAV) xxx
 
 ## Copyright and License
 Copyright 2019 Connecting NodeJs & PostgreSQL, released under the MIT License.
