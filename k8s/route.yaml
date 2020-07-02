@@ -1,0 +1,13 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  labels:
+    app: nodejs-postgresql
+  name: nodejs-postgresql
+spec:
+  port:
+    targetPort: 8080-tcp
+  to:
+    kind: Service
+    name: nodejs-postgresql
+    weight: 100
