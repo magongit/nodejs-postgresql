@@ -62,7 +62,7 @@ haproxy.router.openshift.io/disable_cookies: 'true'
 
 - Type `npm install` in terminal/console in the source folder where `package.json` is located
 - Type `node app.js` in terminal/console in the source folder where `app.js` is located
-- server started on port 4000. (http://localhost:4000/) in default browsersxxx
+- server started on port 4000. (http://localhost:4000/) in default browsers
 
 ## Brief Documented
 
