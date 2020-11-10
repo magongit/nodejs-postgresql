@@ -1,6 +1,6 @@
 const express = require('express');
 const { Client } = require('pg');
-const connectionString = 'postgres://$POSTGRESQL_USER:$POSTGRESQL_PASSWORD@postgresql:5432/sampledb';
+const connectionString = `postgres://${process.env.POSTGRESQL_USER}:${process.env.POSTGRESQL_PASSWORD}@postgresql:5432/sampledb`;
 
 const client = new Client({
     connectionString: connectionString
